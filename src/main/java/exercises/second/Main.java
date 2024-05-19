@@ -21,9 +21,20 @@ public class Main {
         heli.unloadCargo();
 
         Tanker tanker = new Tanker("Evergreen");
-        tanker.move();
+        tanker.loadCargo();
 
         Cat cat = new Cat("Oliver", "home", "black", 40);
         cat.move();
+        System.out.println();
+
+        Bear bear = new Bear("Bear", "forest", "brown", 200);
+        bear.breastfeed();
+
+        Whale whale = new Whale("Whale", "Water", 1000);
+        System.out.println(whale.getName() + " lives in " + whale.getHabitat());
+
+        Fish fish = new Fish("Fish", "Water", 10);
+        fish.move();
+        System.out.println(fish.getName() + " size is " + fish.getHeight());
     }
 }

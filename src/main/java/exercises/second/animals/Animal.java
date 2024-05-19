@@ -21,6 +21,10 @@ abstract class Animal {
         return habitat;
     }
 
+    public int getHeight() {
+        return spine.length;
+    }
+
     public void move() {
         System.out.println(name + " is moving");
     }

@@ -4,28 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77c7b985-4edd-4067-8346-c346196137c2" name="Changes" comment="first exercise">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/second/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/second/animals/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/second/animals/Bear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/second/animals/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/second/animals/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/second/animals/Mammal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/second/animals/Whale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/second/animals/parts/Fur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/second/animals/parts/Spine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/second/vehicles/Boat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/second/vehicles/Helicopter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/second/vehicles/Plane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/second/vehicles/Tanker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/second/vehicles/Taxi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/second/vehicles/Truck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/second/vehicles/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/second/vehicles/interfaces/Cargo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/second/vehicles/interfaces/Propeller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/second/vehicles/interfaces/Wheels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/second/vehicles/interfaces/Wings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="77c7b985-4edd-4067-8346-c346196137c2" name="Changes" comment="second exercise">
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/second/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/second/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/second/animals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/second/animals/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/second/animals/Whale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/second/animals/Whale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/second/animals/parts/Spine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/second/animals/parts/Spine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +79,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716129227499</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="second exercise">
+      <option name="closed" value="true" />
+      <created>1716133171072</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716133171072</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,7 +101,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="exercise-2" />
                       </list>
                     </value>
                   </entry>
@@ -125,6 +116,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="first exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="first exercise" />
+    <MESSAGE value="second exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="second exercise" />
   </component>
 </project>
