@@ -60,6 +60,7 @@ public class LinkedList<E> implements Collection<E> {
     }
 
     @Override
+    @SuppressWarnings("unchecked")
     public <T> T[] toArray(T[] a) {
         if (a.length < size) {
             a = (T[]) java.lang.reflect.Array.newInstance(
@@ -79,6 +80,7 @@ public class LinkedList<E> implements Collection<E> {
     }
 
     @Override
+    @SuppressWarnings("unchecked")
     public <T> T[] toArray(IntFunction<T[]> generator) {
         T[] result = generator.apply(size);
         int i = 0;
