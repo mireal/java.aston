@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77c7b985-4edd-4067-8346-c346196137c2" name="Changes" comment="second exercise">
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/second/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/second/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/second/animals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/second/animals/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/second/animals/Whale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/second/animals/Whale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/second/animals/parts/Spine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/second/animals/parts/Spine.java" afterDir="false" />
+    <list default="true" id="77c7b985-4edd-4067-8346-c346196137c2" name="Changes" comment="third exercise">
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/fourth/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/fourth/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/fourth/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +26,9 @@
   <component name="Git.Merge.Settings">
     <option name="BRANCH" value="exercise-1" />
   </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="exercise-3" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -35,9 +38,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2ggoLEB3DZDPiR7cRDTK8mDoGmS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -50,10 +53,19 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "exercise-2",
-    "kotlin-language-version-configured": "true"
+    "git-widget-placeholder": "exercise-4",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/aria/IdeaProjects/java.aston/src/main/java/exercises/third",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/exercises/third" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -87,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716133171072</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="third exercise">
+      <option name="closed" value="true" />
+      <created>1716134814663</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716134814663</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +137,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="first exercise" />
     <MESSAGE value="second exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="second exercise" />
+    <MESSAGE value="third exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="third exercise" />
   </component>
 </project>
