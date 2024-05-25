@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class Trader {
 
-    private String name;
+    private final String name;
     private String city;
 
     public Trader(String n, String c) {
@@ -37,10 +37,9 @@ public class Trader {
         if (other == this) {
             return true;
         }
-        if (!(other instanceof Trader)) {
+        if (!(other instanceof Trader o)) {
             return false;
         }
-        Trader o = (Trader) other;
         boolean eq = Objects.equals(name, o.getName());
         eq = eq && Objects.equals(city, o.getCity());
         return eq;

@@ -4,9 +4,9 @@ import java.util.Objects;
 
 public class Transaction {
 
-    private Trader trader;
-    private int year;
-    private int value;
+    private final Trader trader;
+    private final int year;
+    private final int value;
 
     public Transaction(Trader trader, int year, int value) {
         this.trader = trader;
@@ -40,10 +40,9 @@ public class Transaction {
         if (other == this) {
             return true;
         }
-        if (!(other instanceof Transaction)) {
+        if (!(other instanceof Transaction o)) {
             return false;
         }
-        Transaction o = (Transaction) other;
         boolean eq = Objects.equals(trader, o.getTrader());
         eq = eq && year == o.getYear();
         eq = eq && value == o.getValue();
