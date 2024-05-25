@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77c7b985-4edd-4067-8346-c346196137c2" name="Changes" comment="third exercise">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/fourth/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/fourth/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/fourth/Main.java" afterDir="false" />
+    <list default="true" id="77c7b985-4edd-4067-8346-c346196137c2" name="Changes" comment="fifth exercise">
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/fifth/PuttingIntoPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/fifth/Trader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/fifth/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/fifth/homework.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/exercises/fourth/LinkedListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,10 +54,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.PuttingIntoPractice.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "exercise-4",
+    "git-widget-placeholder": "exercise-5",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/aria/IdeaProjects/java.aston/src/main/java/exercises/third",
+    "last_opened_file_path": "/home/aria/IdeaProjects/java.aston/src/main/java/exercises/fifth",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -63,6 +66,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/exercises/fifth" />
       <recent name="$PROJECT_DIR$/src/main/java/exercises/third" />
     </key>
   </component>
@@ -138,6 +142,7 @@
     <MESSAGE value="first exercise" />
     <MESSAGE value="second exercise" />
     <MESSAGE value="third exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="third exercise" />
+    <MESSAGE value="fifth exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="fifth exercise" />
   </component>
 </project>
