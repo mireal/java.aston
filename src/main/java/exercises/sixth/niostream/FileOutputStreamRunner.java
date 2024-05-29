@@ -13,8 +13,8 @@ public class FileOutputStreamRunner {
 
         try (FileChannel channel = FileChannel.open(path,StandardOpenOption.CREATE, StandardOpenOption.APPEND)){
             String value = "Hello World2!";
-            channel.write(ByteBuffer.wrap(value.getBytes()));
-            channel.write(ByteBuffer.wrap(System.lineSeparator().getBytes()));
+            int _ = channel.write(ByteBuffer.wrap(value.getBytes()));
+            int _ = channel.write(ByteBuffer.wrap(System.lineSeparator().getBytes()));
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }

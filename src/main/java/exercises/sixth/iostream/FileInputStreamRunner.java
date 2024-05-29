@@ -5,8 +5,8 @@ import java.io.IOException;
 
 public class FileInputStreamRunner {
     public static void main(String[] args) {
-//        readEachByte();
-//        System.out.println("--------------------");
+        readEachByte();
+        System.out.println("--------------------");
         readAllBytes();
 
     }
@@ -14,7 +14,7 @@ public class FileInputStreamRunner {
     private static void readAllBytes() {
         FileInputStream inputStream = null;
         try {
-            inputStream = new FileInputStream("resources/text.txt");
+            inputStream = new FileInputStream("./src/main/resources/text.txt");
             byte[] bytes = inputStream.readAllBytes();
             String stringValue = new String(bytes);
             System.out.println(stringValue);
@@ -32,7 +32,7 @@ public class FileInputStreamRunner {
     }
 
     private static void readEachByte() {
-        try (FileInputStream inputStream = new FileInputStream("resources/text.txt")) {
+        try (FileInputStream inputStream = new FileInputStream("./src/main/resources/text.txt")) {
             byte[] bytes = new byte[inputStream.available()];
             int counter = 0;
             byte currentByte;
